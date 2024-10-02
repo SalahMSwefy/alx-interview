@@ -2,7 +2,7 @@
 ''' Pascal's Triangle '''
 
 
-def generate_pascals_triangle(num_rows):
+def pascal_triangle(num_rows):
     ''' Generate Pascal's Triangle '''
     if num_rows <= 0:
         return []
