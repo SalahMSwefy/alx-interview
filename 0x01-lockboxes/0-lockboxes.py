@@ -5,6 +5,11 @@ Solution of 0-lockboxes.py
 
 
 def canUnlockAll(boxes):
+    """
+    Determines whether a series of locked boxes can be opened
+    based on keys that can be attained.
+    Solution to the lockboxes problem
+    """
     if not isinstance(boxes, list) or len(boxes) == 0:
         return False
 
